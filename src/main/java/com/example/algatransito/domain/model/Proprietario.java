@@ -1,4 +1,4 @@
-package com.example.algatransito.domain;
+package com.example.algatransito.domain.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

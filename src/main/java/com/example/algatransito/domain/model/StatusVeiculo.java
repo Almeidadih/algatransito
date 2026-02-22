@@ -1,4 +1,4 @@
-package com.example.algatransito.domain;
+package com.example.algatransito.domain.model;
 
 public enum StatusVeiculo {
 
