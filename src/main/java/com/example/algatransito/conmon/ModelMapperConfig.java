@@ -1,7 +1,9 @@
 package com.example.algatransito.conmon;
 
 
+import com.example.algatransito.api.model.VeiculoModel;
 import com.example.algatransito.domain.model.Veiculo;
+import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

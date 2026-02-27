@@ -27,7 +27,8 @@ public class ProprietarioController {
     @GetMapping("/{proprietarioId}")
     public ResponseEntity<Proprietario> buscar(@PathVariable Long proprietarioId){
         return proprietarioRepository.findById(proprietarioId)
-                .map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping

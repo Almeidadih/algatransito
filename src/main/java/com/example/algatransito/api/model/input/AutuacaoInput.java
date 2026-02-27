@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 
 @Getter
 @Setter
-public class AutucaoInput {
+public class AutuacaoInput {
     @NotBlank
     private String descricao;
 
